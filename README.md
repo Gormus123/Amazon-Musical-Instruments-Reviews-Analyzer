@@ -53,7 +53,7 @@ Outputs interactive dashboard components
 🚀 Deployment
 
 
-pip install -r requirements.txt   # Python dependencies
+1. pip install -r requirements.txt   # Python dependencies
 
 
 🔧 Dependencies
@@ -66,3 +66,28 @@ textblob==0.17.1
 nltk==3.8.1
 
 
+
+2. cd "<YourFileLocation>"
+
+3. streamlit run app.py
+
+
+
+
+📝 Usage Example
+
+Select product from dropdown or enter ASIN
+
+Click "ANALYZE PRODUCT"
+
+View:
+
+Keyword frequency cards
+
+Sentiment distribution pie chart
+
+Interactive rating gauge
+
+AI-generated summary
+
+Sample reviews
