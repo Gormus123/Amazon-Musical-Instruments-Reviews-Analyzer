@@ -7,7 +7,8 @@ A web app that analyzes Amazon reviews for musical instruments. Users input a pr
 ☁️ Interactive word cloud
 
 
-
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # 🎵 Amazon Musical Instruments Review Analyzer
 A Streamlit-powered dashboard that analyzes Amazon musical instrument reviews with sentiment analysis, keyword extraction, and interactive visualizations.
@@ -39,22 +40,16 @@ A Streamlit-powered dashboard that analyzes Amazon musical instrument reviews wi
 ### 📊 Data Flow
 
 1. Loads pre-processed json file
-
 2. Create pre-processed CSVs (final_reviews_with_analysis.csv, product_ratings_analysis.csv)
-
 3. Filters by selected ASIN
-
 Performs:
-
 Keyword extraction
-
 Sentiment aggregation
-
 Rating calculation
-
 Outputs interactive dashboard components
 
-########################################################################################################
+
+
 🚀 Deployment
 pip install -r requirements.txt   # Python dependencies
 
