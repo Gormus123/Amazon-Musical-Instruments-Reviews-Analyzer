@@ -51,9 +51,14 @@ Outputs interactive dashboard components
 
 
 🚀 Deployment
+
+
 pip install -r requirements.txt   # Python dependencies
 
+
 🔧 Dependencies
+
+
 streamlit==1.29.0
 pandas==2.0.3
 plotly==5.18.0
