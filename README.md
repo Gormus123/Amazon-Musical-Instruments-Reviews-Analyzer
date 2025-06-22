@@ -67,7 +67,7 @@ nltk==3.8.1
 
 
 
-2. cd "<YourFileLocation>"
+2. cd "YourFileLocation"
 
 3. streamlit run app.py
 
